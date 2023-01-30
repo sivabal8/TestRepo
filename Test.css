@@ -1,0 +1,21 @@
+/* Print Styling for usage in PDF based output generation.
+   Note: Currently the generate supports only the mm unit. */
+
+body 
+{
+    font-family:Arial;
+	color:blue;
+}
+p
+{
+    font-size:1.0em;    
+    width: 210mm;
+    height: 297mm;  
+    border-style:groove;
+}
+h1 {
+  font-size: 35px!important;
+  font-weight: normal;
+  margin-top: 5px;
+  color: green;
+}
